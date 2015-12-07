@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='/reset.css'>
+    <link rel='stylesheet' href='/styles.css'>
+    <title>BookMachIt</title>
+  </head>
+
+  <body>
+    <header>
+      <h1><span class='branding'>BookMachIt</span></h1> 
+
+       <h2>Boomark Faster than the speed of sound.</h2>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/your_bookmarks'>Your Bookmarks</a></li>
+        <li><a href='/new'>Add Bookmark</a></li>
+      </ul>
+    </nav>
+    <%= yield %>
+  </body>
+</html>
